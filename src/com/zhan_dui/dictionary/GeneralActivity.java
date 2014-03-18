@@ -39,7 +39,7 @@ public class GeneralActivity extends SlidingFragmentActivity implements
 	private Button mSearch, mAbout, mOfflineManage, mSetting, mRate, mWords;
 	private int mClickMenuID = 0;
 	private Context mContext;
- 
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		ThemeUtils.onActivityCreateSetTheme(this);
